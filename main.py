@@ -13,7 +13,6 @@ class Main:
     def generate_random_string(length):
         letters = string.ascii_lowercase
         rand_string = ''.join(random.choice(letters) for _ in range(length))
-        print(rand_string)
         return rand_string
 
     prepare = PrepareClass(name='test.jpg')
